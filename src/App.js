@@ -1,17 +1,19 @@
 import React from 'react';
-import { FlowChartWithState } from "@mrblenny/react-flow-chart";
+//import { FlowChartWithState } from "@mrblenny/react-flow-chart";
 import { Page } from './components/Page'
-import { chartSimple } from './components/Chart'
+//import { chartSimple } from './components/Chart'
+import { DragAndDropSidebar } from './DragDropSidebar'
 
 function App() {
   return (
     <Page>
-      <FlowChartWithState 
+      <DragAndDropSidebar/>
+      {/* <FlowChartWithState 
           initialValue={chartSimple}
           config={{
             snapToGrid: true,
           }}
-      />
+      /> */}
     </Page>
   );
 }

@@ -8,7 +8,7 @@ export const chartSimple = {
         id: "node1",
         type: "output-only",
         position: {
-          x: 800,
+          x: 400,
           y: 100
         },
         ports: {
@@ -25,7 +25,7 @@ export const chartSimple = {
         id: "node2",
         type: "End",
         position: {
-          x: 800,
+          x: 400,
           y: 300
         },
         ports: {
