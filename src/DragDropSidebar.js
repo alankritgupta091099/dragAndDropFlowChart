@@ -8,9 +8,13 @@ import { SidebarItem } from './components/SideBarItem'
 import { chartSimple } from './components/Chart'
 
 const Message = styled.div`
-margin: 10px;
-padding: 10px;
-background: rgba(0,0,0,0.05);
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    color: #606A72;
+    margin: 32px 0 8px 0;
 `
 
 export const DragAndDropSidebar = () => (
@@ -28,6 +32,7 @@ export const DragAndDropSidebar = () => (
         Actions
       </Message>
       <SidebarItem
+        bg="white"
         type="Email"
         ports={ {
           port1: {
@@ -37,10 +42,11 @@ export const DragAndDropSidebar = () => (
           port2: {
             id: 'port2',
             type: 'output'
-          },
+          }
         }}        
       />
       <SidebarItem
+        bg="white"
         type="Update Profile Property"
         ports={ {
           port1: {
@@ -63,6 +69,7 @@ export const DragAndDropSidebar = () => (
         Timming
       </Message>
       <SidebarItem
+        bg="#ECF3F5"
         type="Time Delay"
         ports={ {
           port1: {
@@ -79,6 +86,7 @@ export const DragAndDropSidebar = () => (
         Logic
       </Message>
       <SidebarItem
+        bg="#D9E0E7"
         type="Conditional split"
         ports={ {
           port1: {
@@ -92,6 +100,7 @@ export const DragAndDropSidebar = () => (
         }}        
       />
       <SidebarItem
+        bg="#D9E0E7"
         type="Trigger Split"
         ports={ {
           port1: {

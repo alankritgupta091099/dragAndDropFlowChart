@@ -1,0 +1,13 @@
+.icon-bg{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 25px;
+    background:'#ECF3F5'
+}
+.icon-container{
+    margin: 0 16px;
+}
